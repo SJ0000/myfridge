@@ -1,7 +1,7 @@
 package com.seb39.myfridge.domain.auth.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.seb39.myfridge.domain.auth.domain.AuthenticationToken;
+import com.seb39.myfridge.domain.auth.entity.AuthenticationToken;
 import com.seb39.myfridge.domain.auth.service.AuthenticationTokenService;
 import com.seb39.myfridge.domain.auth.util.AuthenticationTokenUtils;
 import lombok.RequiredArgsConstructor;

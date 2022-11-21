@@ -3,7 +3,7 @@ package com.seb39.myfridge.domain.auth.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.seb39.myfridge.domain.auth.PrincipalDetails;
-import com.seb39.myfridge.domain.auth.domain.AuthenticationToken;
+import com.seb39.myfridge.domain.auth.entity.AuthenticationToken;
 import com.seb39.myfridge.domain.auth.dto.LoginRequest;
 import com.seb39.myfridge.domain.auth.dto.LoginResponse;
 import com.seb39.myfridge.domain.auth.enums.AppAuthExceptionCode;

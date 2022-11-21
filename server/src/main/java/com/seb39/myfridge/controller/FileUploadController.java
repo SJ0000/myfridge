@@ -1,5 +1,6 @@
-package com.seb39.myfridge.domain.image.upload;
+package com.seb39.myfridge.controller;
 
+import com.seb39.myfridge.domain.image.upload.FileUploadService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestPart;

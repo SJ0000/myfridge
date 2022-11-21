@@ -1,7 +1,7 @@
 package com.seb39.myfridge.comment.service;
 
 import com.seb39.myfridge.domain.comment.entity.Comment;
-import com.seb39.myfridge.domain.comment.repository.CommentRepository;
+import com.seb39.myfridge.repository.comment.CommentRepository;
 import com.seb39.myfridge.domain.comment.service.CommentService;
 import com.seb39.myfridge.domain.member.entity.Member;
 import com.seb39.myfridge.domain.member.service.MemberService;

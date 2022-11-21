@@ -1,6 +1,6 @@
 package com.seb39.myfridge.ingredient.Repository;
 
-import com.seb39.myfridge.domain.ingredient.Repository.IngredientRepository;
+import com.seb39.myfridge.repository.ingredient.IngredientRepository;
 import com.seb39.myfridge.global.config.QueryDslConfig;
 import com.seb39.myfridge.domain.ingredient.entity.Ingredient;
 import org.assertj.core.api.Assertions;

@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.heart.repository;
+package com.seb39.myfridge.repository.heart;
 
 import com.seb39.myfridge.domain.heart.entity.Heart;
 import org.springframework.data.jpa.repository.JpaRepository;

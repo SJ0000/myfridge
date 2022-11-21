@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.ingredient.Repository;
+package com.seb39.myfridge.repository.ingredient;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;

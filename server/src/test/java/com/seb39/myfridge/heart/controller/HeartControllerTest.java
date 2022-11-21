@@ -1,12 +1,12 @@
 package com.seb39.myfridge.heart.controller;
 
 import com.seb39.myfridge.domain.heart.entity.Heart;
-import com.seb39.myfridge.domain.heart.repository.HeartRepository;
+import com.seb39.myfridge.repository.heart.HeartRepository;
 import com.seb39.myfridge.domain.heart.service.HeartService;
 import com.seb39.myfridge.domain.member.entity.Member;
-import com.seb39.myfridge.domain.member.repository.MemberRepository;
+import com.seb39.myfridge.repository.member.MemberRepository;
 import com.seb39.myfridge.domain.recipe.entity.Recipe;
-import com.seb39.myfridge.domain.recipe.repository.RecipeRepository;
+import com.seb39.myfridge.repository.recipe.RecipeRepository;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs;

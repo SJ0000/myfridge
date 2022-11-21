@@ -6,7 +6,7 @@ import com.seb39.myfridge.domain.member.entity.Member;
 import com.seb39.myfridge.domain.member.service.MemberService;
 import com.seb39.myfridge.domain.recipe.entity.Recipe;
 import com.seb39.myfridge.domain.recipe.mapper.RecipeMapper;
-import com.seb39.myfridge.domain.recipe.repository.RecipeRepository;
+import com.seb39.myfridge.repository.recipe.RecipeRepository;
 import com.seb39.myfridge.domain.recipe.entity.Step;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

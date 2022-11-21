@@ -46,7 +46,6 @@ public class RecipeController {
     public ResponseEntity<RecipeDto.ResponseDetail> postRecipe(@Valid @RequestPart RecipeDto.Post requestBody,
                                                                @RequestPart List<MultipartFile> files,
                                                                @AuthMemberId Long memberId) {
-        //1. 이미지 관련 exception 처리 필요
 
         List<RecipeIngredient> recipeIngredients = recipeMapper.ingredientsDtoToIngredients(requestBody.getIngredients());
         List<Step> stepList = recipeMapper.recipeDtoStepsToStepList(requestBody.getSteps());

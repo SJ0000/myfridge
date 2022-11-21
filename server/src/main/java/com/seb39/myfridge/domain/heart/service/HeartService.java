@@ -1,7 +1,7 @@
 package com.seb39.myfridge.domain.heart.service;
 
 import com.seb39.myfridge.domain.heart.entity.Heart;
-import com.seb39.myfridge.domain.heart.repository.HeartRepository;
+import com.seb39.myfridge.repository.heart.HeartRepository;
 import com.seb39.myfridge.domain.member.entity.Member;
 import com.seb39.myfridge.domain.member.service.MemberService;
 import com.seb39.myfridge.domain.recipe.entity.Recipe;

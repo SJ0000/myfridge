@@ -9,7 +9,7 @@ import com.seb39.myfridge.domain.fridge.service.FridgeIngredientService;
 import com.seb39.myfridge.domain.fridge.service.FridgeService;
 import com.seb39.myfridge.domain.ingredient.entity.Ingredient;
 import com.seb39.myfridge.domain.member.entity.Member;
-import com.seb39.myfridge.domain.member.repository.MemberRepository;
+import com.seb39.myfridge.repository.member.MemberRepository;
 import com.seb39.myfridge.domain.member.service.MemberService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

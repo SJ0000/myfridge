@@ -1,7 +1,7 @@
 package com.seb39.myfridge.domain.fridge.service;
 
 import com.seb39.myfridge.domain.fridge.entity.Fridge;
-import com.seb39.myfridge.domain.fridge.repository.FridgeRepository;
+import com.seb39.myfridge.repository.fridge.FridgeRepository;
 import com.seb39.myfridge.domain.member.entity.Member;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

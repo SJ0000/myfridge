@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.image.repository;
+package com.seb39.myfridge.repository.image;
 
 import com.seb39.myfridge.domain.image.entity.Image;
 import org.springframework.data.jpa.repository.JpaRepository;

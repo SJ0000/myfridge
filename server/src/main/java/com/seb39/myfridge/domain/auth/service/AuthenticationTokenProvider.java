@@ -3,7 +3,7 @@ package com.seb39.myfridge.domain.auth.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.seb39.myfridge.domain.auth.domain.AuthenticationToken;
+import com.seb39.myfridge.domain.auth.entity.AuthenticationToken;
 import com.seb39.myfridge.domain.auth.util.JwtClaims;
 import com.seb39.myfridge.domain.auth.enums.JwtTokenType;
 import org.springframework.beans.factory.annotation.Value;

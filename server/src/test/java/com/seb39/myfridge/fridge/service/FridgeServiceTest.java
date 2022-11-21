@@ -4,7 +4,7 @@ import com.seb39.myfridge.domain.fridge.entity.Fridge;
 import com.seb39.myfridge.domain.fridge.mapper.FridgeMapper;
 import com.seb39.myfridge.domain.fridge.service.FridgeIngredientService;
 import com.seb39.myfridge.domain.fridge.service.FridgeService;
-import com.seb39.myfridge.domain.ingredient.Repository.IngredientRepository;
+import com.seb39.myfridge.repository.ingredient.IngredientRepository;
 import com.seb39.myfridge.domain.member.entity.Member;
 import com.seb39.myfridge.domain.member.service.MemberService;
 import org.junit.jupiter.api.Test;

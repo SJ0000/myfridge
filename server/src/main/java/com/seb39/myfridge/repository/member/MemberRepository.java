@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.member.repository;
+package com.seb39.myfridge.repository.member;
 
 
 import com.seb39.myfridge.domain.member.entity.Member;

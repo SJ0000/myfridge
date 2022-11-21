@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.auth.domain;
+package com.seb39.myfridge.domain.auth.entity;
 
 
 import com.auth0.jwt.JWT;

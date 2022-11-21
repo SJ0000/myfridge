@@ -1,6 +1,6 @@
 package com.seb39.myfridge.domain.auth.util;
 
-import com.seb39.myfridge.domain.auth.domain.AuthenticationToken;
+import com.seb39.myfridge.domain.auth.entity.AuthenticationToken;
 import com.seb39.myfridge.domain.auth.enums.AppAuthExceptionCode;
 import com.seb39.myfridge.domain.auth.exception.AppAuthenticationException;
 import org.apache.http.HttpHeaders;

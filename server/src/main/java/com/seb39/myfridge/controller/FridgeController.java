@@ -18,18 +18,14 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/fridge")
 @RequiredArgsConstructor
-public class FridgeIngredientController {
+public class FridgeController {
 
     private final FridgeService fridgeService;
 
     private final FridgeMapper fridgeMapper;
 
-
     private final FridgeIngredientService fridgeIngredientService;
 
-    //Post요청으로 모두 처리가능
-    //냉장고 비우기 -> 배열 안에 있는 항목을 모두 지우고 POST
-    //냉장고 수정 -> 배열 안에 있는 항목을 모두 지우고 새로운 요청 데이터 POST
     @PostMapping
     public ResponseEntity<FridgeDto.Response> postFridgeIngredient(@Valid @RequestBody FridgeDto.Post requestBody,
                                                                    @AuthMemberId Long memberId) {

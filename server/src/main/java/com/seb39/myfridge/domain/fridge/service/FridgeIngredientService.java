@@ -3,7 +3,7 @@ package com.seb39.myfridge.domain.fridge.service;
 import com.seb39.myfridge.domain.fridge.dto.FridgeDto;
 import com.seb39.myfridge.domain.fridge.entity.Fridge;
 import com.seb39.myfridge.domain.fridge.entity.FridgeIngredient;
-import com.seb39.myfridge.domain.fridge.repository.FridgeIngredientRepository;
+import com.seb39.myfridge.repository.fridge.FridgeIngredientRepository;
 import com.seb39.myfridge.domain.ingredient.entity.Ingredient;
 import com.seb39.myfridge.domain.ingredient.service.IngredientService;
 import lombok.RequiredArgsConstructor;

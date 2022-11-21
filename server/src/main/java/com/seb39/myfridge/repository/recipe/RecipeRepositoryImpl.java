@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.recipe.repository;
+package com.seb39.myfridge.repository.recipe;
 
 import com.querydsl.core.types.OrderSpecifier;
 import com.querydsl.core.types.Predicate;

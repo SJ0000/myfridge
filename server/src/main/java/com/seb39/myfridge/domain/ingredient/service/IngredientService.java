@@ -2,8 +2,8 @@ package com.seb39.myfridge.domain.ingredient.service;
 
 import com.seb39.myfridge.domain.ingredient.entity.Ingredient;
 import com.seb39.myfridge.domain.ingredient.entity.RecipeIngredient;
-import com.seb39.myfridge.domain.ingredient.Repository.IngredientRepository;
-import com.seb39.myfridge.domain.ingredient.Repository.RecipeIngredientRepository;
+import com.seb39.myfridge.repository.ingredient.IngredientRepository;
+import com.seb39.myfridge.repository.ingredient.RecipeIngredientRepository;
 import com.seb39.myfridge.domain.recipe.entity.Recipe;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

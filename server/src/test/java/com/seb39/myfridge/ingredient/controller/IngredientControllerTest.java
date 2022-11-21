@@ -1,6 +1,6 @@
 package com.seb39.myfridge.ingredient.controller;
 
-import com.seb39.myfridge.domain.ingredient.Repository.IngredientRepository;
+import com.seb39.myfridge.repository.ingredient.IngredientRepository;
 import com.seb39.myfridge.domain.ingredient.entity.Ingredient;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

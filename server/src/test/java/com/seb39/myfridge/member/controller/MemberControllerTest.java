@@ -3,7 +3,7 @@ package com.seb39.myfridge.member.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.seb39.myfridge.domain.member.dto.MemberDto;
 import com.seb39.myfridge.domain.member.entity.Member;
-import com.seb39.myfridge.domain.member.repository.MemberRepository;
+import com.seb39.myfridge.repository.member.MemberRepository;
 import com.seb39.myfridge.domain.member.service.MemberService;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterEach;

@@ -6,7 +6,7 @@ import com.seb39.myfridge.domain.auth.exception.AppAuthenticationException;
 import com.seb39.myfridge.domain.fridge.service.FridgeService;
 import com.seb39.myfridge.domain.member.entity.Member;
 import com.seb39.myfridge.domain.image.upload.FileUploadService;
-import com.seb39.myfridge.domain.member.repository.MemberRepository;
+import com.seb39.myfridge.repository.member.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

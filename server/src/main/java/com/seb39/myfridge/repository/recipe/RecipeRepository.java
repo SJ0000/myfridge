@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.recipe.repository;
+package com.seb39.myfridge.repository.recipe;
 
 import com.seb39.myfridge.domain.recipe.entity.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;

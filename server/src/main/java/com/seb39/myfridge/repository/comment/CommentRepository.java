@@ -1,4 +1,4 @@
-package com.seb39.myfridge.domain.comment.repository;
+package com.seb39.myfridge.repository.comment;
 
 import com.seb39.myfridge.domain.comment.entity.Comment;
 import org.springframework.data.domain.Page;

@@ -2,7 +2,7 @@ package com.seb39.myfridge.domain.image.upload;
 
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.seb39.myfridge.domain.image.entity.Image;
-import com.seb39.myfridge.domain.image.repository.ImageRepository;
+import com.seb39.myfridge.repository.image.ImageRepository;
 import com.seb39.myfridge.domain.recipe.entity.Recipe;
 import com.seb39.myfridge.domain.recipe.entity.Step;
 import lombok.RequiredArgsConstructor;
