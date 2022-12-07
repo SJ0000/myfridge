@@ -45,13 +45,14 @@
  - <img width="1321" alt="DB Table" src="https://user-images.githubusercontent.com/41468526/205584499-7a4328c9-cfba-4b94-892f-4998b0b4915e.png">
 
 
-## [API 문서](https://api.seb39myfridge.ml/docs/docs.html)
+## API 문서  
+   https://api.seb39myfridge.ml/docs/docs.html  
 
-
+  
 ## 문제해결 정리
 
 * Spring Security @AuthenticationPrincipal의 expression 이용하기  
-  https://velog.io/@skrek269/Spring-Security-AuthenticationPrincipal-expression
+  https://velog.io/@skrek269/Spring-Security-AuthenticationPrincipal-expression  
   AuthenticationPrincipal의 expression을 사용하여 Controller의 중복코드를 제거한 경험을 정리하였습니다.
 
 
