@@ -48,5 +48,14 @@
 ## [API 문서](https://api.seb39myfridge.ml/docs/docs.html)
 
 
+## 문제해결 정리
+
+* Spring Security @AuthenticationPrincipal의 expression 이용하기  
+  https://velog.io/@skrek269/Spring-Security-AuthenticationPrincipal-expression
+  AuthenticationPrincipal의 expression을 사용하여 Controller의 중복코드를 제거한 경험을 정리하였습니다.
+
+
+
+
 
 
