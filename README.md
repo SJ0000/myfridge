@@ -1,13 +1,8 @@
-# 자취생 냉장고
-
-<img width="380" alt="image" src="https://user-images.githubusercontent.com/92300124/195008444-93f7e7a8-3ea4-434b-8311-df4f05d7d56d.png">
-
-
 ## 프로젝트 소개
 
-자취생에게 초점을 맞춘 요리앱 자취생 냉장고는 사용자가 가지고 있는 재료를 개인 냉장고에 등록하여 모바일로 관리하고, 그 재료를 통해 어떤 음식을 만들 수 있는지 알려주는 애플리케이션입니다.
+자취생에게 초점을 맞춘 요리앱 자취생 냉장고는 사용자가 가지고 있는 재료를 개인 냉장고에 등록하여 모바일로 관리하고, 그 재료를 통해 어떤 음식을 만들 수 있는지 알려주는 애플리케이션입니다.  
 
-![search-title-ingredient](https://user-images.githubusercontent.com/92300124/195007568-ddcb588f-cc75-4995-86e2-44d07c963a61.gif)
+<img src="https://user-images.githubusercontent.com/92300124/195007568-ddcb588f-cc75-4995-86e2-44d07c963a61.gif" width="640" height="320"/>
 
 
 ## 개발기간
@@ -42,7 +37,7 @@
  Redis  
 
 ## ERD
- - <img width="1321" alt="DB Table" src="https://user-images.githubusercontent.com/41468526/205584499-7a4328c9-cfba-4b94-892f-4998b0b4915e.png">
+ <img width="1200" alt="DB Table" src="https://user-images.githubusercontent.com/41468526/205584499-7a4328c9-cfba-4b94-892f-4998b0b4915e.png">
 
 
 ## API 문서  
@@ -51,11 +46,12 @@
   
 ## 문제해결 정리
 
-* Spring Security @AuthenticationPrincipal의 expression 이용하기  
+* AuthenticationPrincipal의 expression을 사용하여 Controller의 중복코드를 제거한 경험을 정리하였습니다.  
   https://velog.io/@skrek269/Spring-Security-AuthenticationPrincipal-expression  
-  AuthenticationPrincipal의 expression을 사용하여 Controller의 중복코드를 제거한 경험을 정리하였습니다.
+  
 
-
+* 한 클래스에 @Builder를 여러개 적용하여 객체를 구분하여 생성한 경험을 정리했습니다.
+  https://velog.io/@skrek269/Lombok-Builder
 
 
 
